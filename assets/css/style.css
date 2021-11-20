@@ -34,3 +34,20 @@ h1, h2, h3, h4, h5, h6{
     z-index: 1000;
     width: 100%;
 }
+.header_logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav_link{
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav_link:hover{
+    color: #fce38a;
+}
