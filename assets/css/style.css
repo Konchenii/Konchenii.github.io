@@ -19,11 +19,13 @@ h1, h2, h3, h4, h5, h6{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    border: 12px;
+    bottom: 0px;
 }
 
 .intro{
     width: 100%;
-    height: 100vh;
+    height: 35vh;
     background: url(../images/загружено.jfif);
 }
 .header{
@@ -33,21 +35,58 @@ h1, h2, h3, h4, h5, h6{
     right: 0;
     z-index: 1000;
     width: 100%;
+    text-align:right ;
 }
 .header_logo{
     font-size: 30px;
     font-weight: 700;
     color: #fff;
+    text-align: left;
 }
 .nav{
-    font-size: 14px;
+    font-size: 18px;
     text-transform: uppercase;
+    color: #fff;
 }
 .nav_link{
-    color: #fff;
+    color: rgb(168, 214, 40);
     text-decoration: none;
     transition: color .2s linear;
+}
+.nav_link:after{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color:#fce38a;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s ;
 }
 .nav_link:hover{
     color: #fce38a;
 }
+.intro{
+    width: 100%;
+    margin:0 auto ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background: url(../images/загружено.jfif);
+    
+}
+.video{
+    width: 100%;
+    margin-bottom: 50vh;
+    margin-top: -60vh;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background: url(../images/загружено.jfif);
+}
+
