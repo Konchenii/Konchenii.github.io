@@ -34,9 +34,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.reg-btn:hover {
-    transform: scale(1.2);
-}
 .MyClass {
     display: none;
 }
