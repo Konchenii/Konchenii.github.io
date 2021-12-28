@@ -42,7 +42,7 @@ body {
     font-size: 50px;
 }
 .reg-btn:hover {
-    transform: scale(1.2);
+    transform: scale(1.01)
 }
 .video-container {
     display: none;
